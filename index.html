@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio Web - Izabel Sofia Ortega Obando</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="notebook-container">
+        <div class="tabs-header">
+            <button class="tab-btn active" data-tab="sobre-mi">SOBRE MÍ</button>
+            <button class="tab-btn" data-tab="educacion">FORMACIÓN ACADÉMICA</button>
+            <button class="tab-btn" data-tab="proyectos">PÁGINAS REALIZADAS</button>
+            <button class="tab-btn" data-tab="habilidades">HABILIDADES</button>
+        </div>
+
+        <div class="notebook-body">
+            
+            <div id="sobre-mi" class="tab-panel active">
+                <div class="grid-profile">
+                    <div class="polaroid-frame">
+                        <img src="images/Iza.jpeg" alt="Izabel Sofia" class="polaroid-photo">
+                        <div class="polaroid-caption">Desarrolladora de Software</div>
+                    </div>
+                    <div>
+                        <div class="intro-card">
+                            <h2>Izabel Sofia Ortega Obando</h2>
+                            <div class="intro-subtitle">Análisis y Desarrollo de Software</div>
+                            <p>Estudiante apasionada por la tecnología y la creación de soluciones digitales funcionales. Comprometida, proactiva y orientada a las necesidades del usuario.</p>
+                        </div>
+                        <div class="contact-sticker">
+                            <h3>Contacto</h3>
+                            <div class="contact-item">Soacha, Cundinamarca</div>
+                            <div class="contact-item">
+                                Telefono: 3195819108 
+                                <button class="action-btn" data-copy="3195819108" data-type="Teléfono">Copiar</button>
+                            </div>
+                            <div class="contact-item">
+                                Correo: ortegaobandoizabelsofia@gmail.com 
+                                <button class="action-btn" data-copy="ortegaobandoizabelsofia@gmail.com" data-type="Correo">Copiar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="educacion" class="tab-panel">
+                <h2 class="section-title">Mi Trayectoria Académica</h2>
+                
+                <div class="timeline-card">
+                    <h3>Tecnólogo en Análisis y Desarrollo de Software</h3>
+                    <div class="timeline-place">Servicio Nacional de Aprendizaje (SENA)</div>
+                    <div class="timeline-date">2025 - Actualmente cursando (Quinto Trimestre)</div>
+                </div>
+
+                <div class="timeline-card">
+                    <h3>Técnico en Integración de Contenidos Digitales</h3>
+                    <div class="timeline-place">Servicio Nacional de Aprendizaje (SENA)</div>
+                    <div class="timeline-date">2023 - 2024</div>
+                </div>
+
+                <div class="timeline-card">
+                    <h3>Bachiller Académico</h3>
+                    <div class="timeline-place">Institución Educativa Ricaurte</div>
+                    <div class="timeline-date">2024</div>
+                </div>
+
+                <div class="timeline-card" style="border-left-color: var(--dark-pink);">
+                    <h3>Cursos Adicionales</h3>
+                    <div class="timeline-place">SENA (2025)</div>
+                    <div class="timeline-date">Curso de JAVA, HTML y CSS<br>Curso de Inglés</div>
+                </div>
+            </div>
+
+            <div id="proyectos" class="tab-panel">
+                <h2 class="section-title">Proyectos e Aplicaciones Web</h2>
+                <p style="margin-bottom: 1.5rem; color: var(--text-muted);">Aquí puedes ver las plataformas, proyectos finales y sistemas de software que he diseñado y programado:</p>
+                
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <h3>Puppies Dates</h3>
+                        <p style="font-size: 0.9rem; margin-top: 0.5rem;">Sistema especializado exclusivamente para la gestión y reserva de actividades recreativas para perros.</p>
+                        <div class="project-tags">
+                            <span class="tag">Flutter</span>
+                            <span class="tag">Dart</span>
+                            <span class="tag">UI/UX</span>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <h3>Proyecto Marca de Ropa</h3>
+                        <p style="font-size: 0.9rem; margin-top: 0.5rem;">Proyecto final desarrollado durante el Técnico en Integración de Contenidos Digitales, enfocado en la identidad multimedia y el despliegue visual de la marca.</p>
+                        <div class="project-tags">
+                            <span class="tag">Contenidos Digitales</span>
+                            <span class="tag">Multimedia</span>
+                            <span class="tag">Diseño</span>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <h3>Moda ECCI</h3>
+                        <p style="font-size: 0.9rem; margin-top: 0.5rem;">Trabajo multimedia y audiovisual enfocado en la pasarela visual, organización estética y diseño orientado al sector de la moda.</p>
+                        <div class="project-tags">
+                            <span class="tag">Moda ECCI</span>
+                            <span class="tag">Diseño de Marca</span>
+                            <span class="tag">Estética</span>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <h3>Proyecto Cafetería y Talleres</h3>
+                        <p style="font-size: 0.9rem; margin-top: 0.5rem;">Plataforma web interactiva orientada al control, reserva y gestión de espacios de cafetería especializada y talleres interactivos.</p>
+                        <div class="project-tags">
+                            <span class="tag">HTML5 / CSS3</span>
+                            <span class="tag">JavaScript</span>
+                            <span class="tag">Gestión</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="habilidades" class="tab-panel">
+                <h2 class="section-title">Habilidades Técnicas & Interpersonales</h2>
+                
+                <div class="skills-container">
+                    <div>
+                        <h3 style="color: var(--dark-pink); margin-bottom: 0.8rem;">Core de Desarrollo & Diseño:</h3>
+                        <div class="skills-cloud">
+                            <div class="skill-sticker">HTML5 / CSS3</div>
+                            <div class="skill-sticker">Java / Programación</div>
+                            <div class="skill-sticker">MySQL / Bases de Datos</div>
+                            <div class="skill-sticker">Flutter / Dart</div>
+                            <div class="skill-sticker">Diseño Gráfico & Multimedia</div>
+                            <div class="skill-sticker">Diseño Flat & Minimalista</div>
+                            <div class="skill-sticker">Canva Pro</div>
+                        </div>
+                    </div>
+
+                    <div style="margin-top: 1rem;">
+                        <h3 style="color: var(--dark-pink); margin-bottom: 0.8rem;">Habilidades Profesionales:</h3>
+                        <div class="skills-cloud">
+                            <div class="skill-sticker" style="background-color: var(--light-pink); border-color:#F2C2D4;">Escucha Activa</div>
+                            <div class="skill-sticker" style="background-color: var(--light-pink); border-color:#F2C2D4;">Comunicación Asertiva</div>
+                            <div class="skill-sticker" style="background-color: var(--light-pink); border-color:#F2C2D4;">Trabajo en Equipo</div>
+                            <div class="skill-sticker" style="background-color: var(--light-pink); border-color:#F2C2D4;">Liderazgo Humano</div>
+                            <div class="skill-sticker" style="background-color: var(--light-pink); border-color:#F2C2D4;">Adaptabilidad</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div id="toast-alert">Dato copiado con éxito</div>
+
+    <script src="script.js"></script>
+</body>
+</html>
